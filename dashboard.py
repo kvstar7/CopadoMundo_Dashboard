@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("C:/Users/kevin/Downloads/world_cup_results.csv")
+df = pd.read_excel("world_cup_results.xlsx")
 
 df['TotalGols'] = df['HomeGoals'] + df['AwayGoals']
 
